@@ -10,4 +10,7 @@ venv/
 *log
 
 # model
-*model/*
+*000-of-00001
+*.index
+*.meta
+*checkpoint
