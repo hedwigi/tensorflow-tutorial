@@ -1,4 +1,3 @@
-import tensorflow as tf
 import os
 import numpy as np
 import random
@@ -8,7 +7,7 @@ from tensorflow import set_random_seed
 set_random_seed(2)
 
 from l2_image_clf.DataHelper import DataHelper
-from l2_image_clf.entity.Model import Model
+from l2_image_clf.Model import Model
 from l2_image_clf.config import params
 
 

@@ -2,8 +2,8 @@ import os
 import cv2
 import numpy as np
 from sklearn.utils import shuffle
-from l2_image_clf.entity.Datasets import Datasets
-from l2_image_clf.entity.Dataset import Dataset
+from l2_image_clf.Datasets import Datasets
+from l2_image_clf.Dataset import Dataset
 
 
 class DataHelper(object):
