@@ -91,10 +91,10 @@ mode = "train"
 model = Model(params)
 sess = tf.Session()
 
-if mode == "train":
-    model.train(sess, trainset, params, num_iterations=20)
+# if mode == "train":
+model.train(sess, trainset, params, num_iterations=20)
 
-else:
+# else:
 
-    idx_uid = random.randint(0, len(user_vocab))
-    y_pred = model.predict_single(user_vocab[idx_uid])
+    # idx_uid = random.randint(0, len(user_vocab))
+    # y_pred = model.predict_single(user_vocab[idx_uid])
