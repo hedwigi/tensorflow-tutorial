@@ -7,7 +7,7 @@ from tensorflow import set_random_seed
 set_random_seed(2)
 
 from l2_image_clf.DataHelper import DataHelper
-from l2_image_clf.Model import Model
+from l2_image_clf.CNNModel import CNNModel
 from l2_image_clf.config import params
 
 
@@ -35,7 +35,7 @@ print("Number of files in Test-set:\t{}".format(len(test_images)))
 # ---- MAIN -----
 
 mode = "single"
-model = Model(params)
+model = CNNModel(params)
 
 if mode == "train":
     model.train(train_datasets, params, num_iterations=3000)

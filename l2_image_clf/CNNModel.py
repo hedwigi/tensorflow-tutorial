@@ -1,7 +1,7 @@
 import tensorflow as tf
 
 
-class Model(object):
+class CNNModel(object):
 
     def __init__(self, params):
         """
